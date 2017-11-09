@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="bilder/P99.ico" type="favicon/ico" />
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="css/custom.css" rel="stylesheet">
+<link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Winner winner, chicken dinner</title>
+</head>
+<body>
+<img src="bilder/nyheter.jpg" class="bg" alt="Error picture not found.">
+<div class="navtop" id="myTopnav">
+  <a href="Hjem.html">Home</a>
+  <a href="Produkt.html">Product</a>
+  <a href="Utstyr.html">Equipment</a>
+  <a href="Nyheter.html">News</a>
+  <a href="Omoss.html">About Us</a>
+</div>
+<div class="logo">
+<img src="bilder/logo1.png" alt="Error picture not found.">
+</div>
+<div class="w3-content w3-display-container">
+<div class="w3-display-container mySlides">
+<img src="bilder/fps.jpg" style="width:100%;" alt="Error picture not found.">
+<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    Introducing First person only servers, Finally its here!
+  </div>
+</div>
+<div class="w3-display-container mySlides">
+<img src="bilder/pubgnewmap.jpg" style="width:100%;" alt="Error picture not found.">
+<div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    Here is a sneak peak of the new map arriving!
+</div>
+</div>
+<div class="w3-display-container mySlides">
+<img src="bilder/vault.jpg" style="width:100%" alt="Error picture not found.">
+<div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Vaulting is soon here!
+</div>
+</div>
+<div class="w3-display-container mySlides">
+<img src="bilder/mini141.jpg" style="width:100%" alt="Error picture not found.">
+<div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Finally the mini14 makes its appearance
+</div>
+</div>
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<footer> All rights reserved BlueHole INC.  (10/9/2017)</footer>
+</body>
+</html>
