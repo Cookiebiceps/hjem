@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="bilder/P99.ico" type="favicon/ico" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+<title>Winner winner, chicken dinner</title>
+<link href="css/custom.css" rel="stylesheet">
+</head>
+<body>
+<!-- Bakgrunns bilde -->
+<img src="bilder/bakgrunn.jpg" class="bg" alt="Error picture not found.">
+<div class="navtop" id="myTopnav">
+  <a href="Hjem.html">Home</a>
+  <a href="Produkt.html">Product</a>
+  <a href="Utstyr.html">Equipment</a>
+  <a href="Nyheter.html">News</a>
+  <a href="Omoss.html">About Us</a>
+</div>
+<div class="textleft">
+Battle Royale on a island against 99 other survivors.
+Find a weapon survive and earn the chicken dinner for yourself.
+Not only a game, This is battle royale!
+</div>
+<!-- Playersunknown's Battlegrounds bilde  og bluehole-->
+<div class="logo">
+<img src="bilder/logo1.png" alt="Error picture not found.">
+</div>
+<div class="bluehole">
+<img src="bilder/bluehole.png" alt="Error picture not found.">
+</div>
+<footer> All rights reserved BlueHole INC.  (10/9/2017)</footer>
+</body>
+</html>
 
-You can use the [editor on GitHub](https://github.com/Cookiebiceps/hjem/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Cookiebiceps/hjem/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
