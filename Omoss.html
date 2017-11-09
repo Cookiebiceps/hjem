@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="bilder/P99.ico" type="favicon/ico" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+<title>Winner winner, chicken dinner</title>
+<link href="css/custom.css" rel="stylesheet">
+</head>
+<body>
+<img src="bilder/omoss.jpg" class="bg" alt="Error picture not found.">       <!-- Bakgrunns bilde -->
+<div class="navtop" id="myTopnav">             <!-- NAVbar -->
+  <a href="Hjem.html">Home</a>
+  <a href="Produkt.html">Product</a>
+  <a href="Utstyr.html">Equipment</a>
+  <a href="Nyheter.html">News</a>
+  <a href="Omoss.html">About Us</a>
+</div>
+<table style="width:50%">                      <!-- Table -->
+  <tr>
+  <th>Name</th>
+  <th colspan="1">Telephone</th>
+  <th colspan="1">Student number</th>
+  <th colspan="1">E-mail</th>
+  <th colspan="1">Role</th>
+  </tr>
+  <tr>
+  <td>Stian Lindberg</td>
+  <td>95419168</td>
+  <td>218394</td>
+  <td>Stian_lindberg@live.no</td>
+  <td>Web Developer</td>
+  </tr>
+  </table>
+<div class="textus">
+We are a company that want to include PUBG players all around Europe into one big community.
+This website will help both new players and old players with new facts or even just to learn the game.
+PUBG is a game where you have to run away from a circle that will pop up on your map. If you are outside this circle
+you will take damage, and the circle forces players closer and closer to eachother on a 8x8KM map.
+The smaller the circle the more damage you will take staying outside this circle.
+Survival of the fittest!
+</div>
+<!-- Playersunknown's Battlegrounds bilde -->
+<div class="logo">
+<img src="bilder/logo1.png" alt="Error picture not found.">
+</div>
+<!--Geolocation-->
+  <div style="LEFT: 80%; POSITION: absolute; TOP: 60%;">
+ <style>
+    #map {
+      height: 300px;
+      width: 300px;
+      margin: 1;
+      padding: 1;
+    }
+  </style> 
+<div id="map"></div>
+<script type="text/javascript">
+  function initMap() {
+    var location = {lat: 59.4088879, lng: 9.060795};
+    var map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 18,
+      center: location
+    });
+    var marker = new google.maps.Marker({
+      position: location,
+      map: map
+    });
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4PK6eFiMYV7KAjui_XaoH7Hg66O8Wqas&callback=initMap"></script>
+<!--End Geolocation-->
+<!--Bottom navbar, PUBGwebsite, Facebook and Twitter.-->
+<ul>
+  <li><a href="https://www.playbattlegrounds.com/main.pu">PUBG Website</a></li>
+  <li><a href="https://www.facebook.com/playbattlegrounds/">Facebook</a></li>
+  <li><a href="https://twitter.com/pubattlegrounds">Twitter</a></li>
+</ul>
+</body>
+</html>
+
