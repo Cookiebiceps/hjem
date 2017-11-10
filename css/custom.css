@@ -1,0 +1,407 @@
+@media(max-width:768px) {
+    header {
+        min-height: 100%;
+    }
+
+        /*Bakgrunns bilde til sider */
+        img.bg {
+            /* for å fylle bakrunn */
+            min-height: 100%;
+            min-width: 100%;
+            z-index:-100;
+            
+            /* scale på bildet */
+            width: 100%;
+            height: auto;
+            
+            /* possisjon */
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        
+        .logo img{
+            position: relative;
+            width: 50%;
+            height: 40%;
+            left: 0%;
+            top: 70%;
+            z-index: -1;
+
+        }
+
+        .bluehole {
+            width: 30%;
+            height: 30%;
+            bottom: 100%;
+        }
+        .equipment {
+            width: 100%;
+            position: relative;
+        }
+
+        .imageequipment {
+            display: block;
+            float: left;
+            cursor: pointer;
+            z-index: 0;
+            position: relative;
+            overflow: hidden;
+        }    
+
+        .steam img {
+            position: absolute;
+            height: 20%;
+            width: 30%;
+            float: right;
+            left: 60%;
+            top: 80%;
+            
+
+        }
+    }
+
+/*Header til sidene*/
+.bg {
+    width:100%;
+    height:100%;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: -99;
+}	
+.header {
+  z-index: 50;
+  position: relative;
+}
+.header h1, .header h2 {
+	color: black;
+    font-family: 'Archivo Black', sans-serif;
+	text-align: middle;
+	margin-top: -20px;
+	margin-left: -7px;
+    z-index: 4;
+}
+
+.header h1 {
+	font-size: 85px;
+	font-weight: 700;
+	font-family: 'Archivo Black', sans-serif;
+}
+
+.header h2 {
+	font-size: 85px;
+	font-weight: 400;
+	font-family: 'Archivo Black', sans-serif;
+    width: 300px;}
+
+.logo img {
+    position: absolute;
+    height: 20%;
+    left: 65%;
+    top: 0%;
+    z-index: 15;
+ }
+
+ .steam img {
+    position: absolute;
+    height: 20%;
+    width: 30%;
+    float: right;
+    left: 60%;
+    top: 80%;
+
+ }
+
+ .bluehole img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 100%;
+
+
+ }
+
+/*Navigasjons bar /*
+
+/* gjør baren transparent */
+.navtop {
+    background-color: transparent;
+    overflow: hidden;
+    top:0;
+}
+
+/* for og endre teksten i baren */
+.navtop a {
+    float: left;
+    display: block;
+    color: lightyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    top:0;
+    z-index: 1;
+    
+}
+
+/* for å bytte farge når man har musen over tekst */
+.navtop a:hover {
+    background-color: #ddd;
+    color: yellow;
+}
+
+/* gi farge til link */
+.navtop a.active {
+    background-color: #ADFF2F;
+    color: lightyellow;
+}
+
+/*Header Fonts*/
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    border: 5px solid lightyellow;
+    padding: 25px;
+    margin: 25px;
+
+}
+
+h2 {
+    font-family: 'Archivo Black', sans-serif;
+    color:white;
+    border: 5px solid lightyellow;
+    padding: 25px;
+    margin: 25px;
+}
+
+
+  /*Center frontside tekst*/
+.textfront {
+    font-family: 'Archivo Black', sans-serif; 
+    height: 200px;
+    width: 400px;
+    font-size: 20px;
+    color: white;
+    border: 5px solid lightyellow;
+    padding: 25px;
+    margin: 25px;
+}
+
+  /*Tekst Hjem*/
+.textleft {
+    font-family: 'Archivo Black', sans-serif; 
+    min-height: 10%;
+    max-width: 30%;
+    background: transparent;
+    color: lightyellow;
+
+    position: fixed;
+    top: 30%;
+    left: 2%;
+   
+
+}
+
+ 
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 0px;
+    text-align: left;
+    border-spacing: 1px;
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  color:white;
+  background-color: black;
+}
+
+  /*Tekst news*/
+.textnews {
+    font-family: 'Archivo Black', sans-serif; 
+    height: 200px;
+    width: 400px;
+    background: transparent;
+    color: lightyellow;
+
+    position: fixed;
+    top: 30%;
+    left: 11%;
+    margin-top: -100px;
+    margin-left: -200px;
+
+}
+
+  /*Tekst news*/
+.textnews2 {
+    font-family: 'Archivo Black', sans-serif; 
+    height: 200px;
+    width: 400px;
+    background: transparent;
+    color: lightyellow;
+
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    margin-top: -100px;
+    margin-left: -200px;
+
+}
+
+  /*Tekst about us*/
+.textus {
+    font-family: 'Archivo Black', sans-serif; 
+    height: 200px;
+    width: 400px;
+    background: transparent;
+    color: lightyellow;
+
+    position: fixed;
+    top: 30%;
+    left: 11%;
+    margin-top: -100px;
+    margin-left: -200px;
+
+}
+
+  /*Tekst news*/
+.textnews3 {
+    font-family: 'Archivo Black', sans-serif; 
+    height: 200px;
+    width: 400px;
+    background: transparent;
+    color: lightyellow;
+
+    position: fixed;
+    top: 30%;
+    left: 65%;
+    margin-top: -100px;
+    margin-left: -200px;
+
+}
+
+  /*Tekst news*/
+.textnews4 {
+    font-family: 'Archivo Black', sans-serif; 
+    height: 200px;
+    width: 400px;
+    background: transparent;
+    color: lightyellow;
+
+    position: fixed;
+    top: 30%;
+    left: 89%;
+    margin-top: -100px;
+    margin-left: -200px;
+
+}
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;  
+  
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    position: bottom;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+
+/*Slideshow code*/
+
+
+
+
+
+/*/////////////////Tooltip for equippment page//////////////////////*/
+
+.equipment {
+  position: relative;
+  width: 15%;
+  display: inline-block;
+}
+
+.imageequipment {
+  display: inline-block;
+  cursor: pointer;
+  z-index: 0;
+  position: relative;
+}
+
+
+
+.equipment:hover :not(img) {
+  opacity: 1;
+}
+
+.equipment :not(img) {
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+}
+
+/*Video for productpage*/
+
+* { box-sizing: border-box; }
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground, .video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+#vidtop-content {
+    top: 0;
+    color: #fff;
+}
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+/*END for video product site*/
